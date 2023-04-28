@@ -14,6 +14,7 @@ That score along with initials are then stored into local storage
 ## App Image
 
 ## Live URL
+https://juan-piedra.github.io/Full-Stack-Basics-Quiz/
 
 ## Author
 Juan Piedra
