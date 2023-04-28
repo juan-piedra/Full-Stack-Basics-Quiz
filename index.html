@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="start-screen">
+    <h1>Coding Quiz Challenge</h1>
+    <button onclick="startQuiz()">Start Quiz</button>
+</div>
+    <div id="question-container" class="hidden">
+        <div id="question-title"></div>
+        <div id="answer-choices"></div>
+        <p id="timer"></p>
+        <div id="result"></div>
+    </div>
+    <div id="end-screen" class="hidden">
+        <h1>Thanks for playing! Your score is: <span id="score"></span></h1>
+        <div id="user-initials">
+            <h2>Enter initials</h2>
+            <input id="name-input" placeholder="Please enter your initials">
+            <button onclick="saveScore()" id="submit-btn">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
